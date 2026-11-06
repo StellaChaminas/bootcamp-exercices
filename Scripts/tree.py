@@ -41,3 +41,4 @@ if __name__ == "__main__":
     roots = sys.argv[1:]
     for path in roots if roots else ["."]:
         print_tree(path)
+print('Je suis dans une nouvelle branche')
