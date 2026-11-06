@@ -26,7 +26,7 @@ def print_path(depth: int, path: str) -> tuple[int, int]:
 
 def salut():
     print('Hello')
-    
+
 def print_tree(path: str) -> None:
     if os.path.exists(path):
         print(path)
@@ -41,3 +41,5 @@ if __name__ == "__main__":
     roots = sys.argv[1:]
     for path in roots if roots else ["."]:
         print_tree(path)
+
+print('Bye bye')
